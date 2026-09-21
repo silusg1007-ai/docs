@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "ScienceLab",
+  "projectType": "saas",
+  "projectName": "ScienceLab",
+  "projectDescription": "A free K-12 science education platform offering concept videos, browser-based virtual labs, and printable resources aligned to Next Generation Science Standards (NGSS).",
   "theme": "almond",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -101,11 +99,23 @@
       }
     ]
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started Free",
-      "href": "https://sciencelab.com/signup"
-    }
-  }
+  "keyFeatures": [
+    "Browser-based virtual labs requiring no physical equipment",
+    "Short concept videos aligned to NGSS standards",
+    "Printable worksheets and post-lab analysis questions",
+    "Vocabulary lists and claim-evidence-reasoning (CER) templates",
+    "Teacher class dashboards with lab completion, quiz scores, and time-on-task tracking",
+    "Content organized by NGSS grade bands (K-2, 3-5, 6-8, 9-12)",
+    "Test prep resources for AP, SAT/ACT, MCAT, and state assessments",
+    "Completely free platform for students, teachers, and parents"
+  ],
+  "publicApiSurface": [
+    "Virtual lab simulations (acid/base titration, frog dissection, circuit building, projectile motion, Punnett squares, chemical reactions)",
+    "Class dashboard (lab completion tracking, quiz scores, time-on-task)",
+    "Printable worksheets and CER templates",
+    "NGSS-aligned video content library",
+    "Grade-band content browsing (K-2, 3-5, 6-8, 9-12)",
+    "Subject-based content browsing (biology, chemistry, physics, ecology, earth science)",
+    "Test prep modules (AP, SAT/ACT, MCAT, NY Regents)"
+  ]
 }
